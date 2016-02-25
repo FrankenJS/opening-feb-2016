@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    margin: 50px;
+    color: #fff;
+    background: red;
+    font-family: 'Open Sans', serif;
+    -webkit-user-select: none;
+}
+
+.logo {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.qr {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 136px;
+  height: 136px;
+}
+
+.partner {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 186px;
+  line-height: 136px;
+  text-align: center;
+  font-size: 2em;
+}
+
+p.host {
+  display: none;
+}
+
+p.host span {
+  background: lightblue;
+}
+
+body.announcement {
+
+  background: transparent url(host.jpg);
+  background-size: cover;
+}
+
+body.announcement .host {
+
+  display: block;
+}
